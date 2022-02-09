@@ -2,27 +2,22 @@
     height: 100%;
     width: 0;
     position: fixed;
-    z-index: 1;
+    z-index: 3000;
     top: 0;
     right: 0;
     background-color: rgb(238, 235, 235);
     overflow-x: hidden;
-    transition: 0.5s;
+    transition: 1s;
     padding-top: 60px;
   }
   
   .sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+    
+    
   }
-  
-  .sidebar a:hover {
-    color: rgb(36, 179, 211);
-  }
+
   
   .sidebar .closebtn {
     position: absolute;
@@ -30,17 +25,18 @@
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
+    
   }
   
   .openbtn {
-    font-size: 20px;
+    font-size: 40px;
     cursor: pointer;
-    background-color: rgba(36, 179, 211, 0.85);
+    background-color: grey;
     color: white;
     padding: 10px 15px;
     border: none;
-    top: 50px;
-    right: 50px;
+    top: 70px;
+    right: 70px;
     position:fixed;
   }
   

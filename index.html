@@ -18,11 +18,41 @@
     
 </head>
 <body>
+    <!--Navbar Section Start-->
+    <nav>
+        <input id="nav-toggle" type="checkbox">
+        <div class="logo">Uspar<strong>Textile</strong></div>
+        <ul class="links">
+            <li><a href="#home" class="fs-3">Home</a></li>
+            <li><a href="#history" class="fs-3">About Us</a></li>
+            <li><a href="#wwd" class="fs-3">What we do?</a></li>
+            <li><a href="#pd" class="fs-3">P&D</a></li>
+            <li><a href="#contact" class="fs-3">Contact</a></li>
+        </ul>
+        <label for="nav-toggle" class="icon-burger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+        </label>
+    </nav>
+    <!--Navbar Section End-->
     <!--Intro Section Start-->
-    <div id="intro" class="bg-intro parallax"></div>
+    <div id="home" class="container-fluid">
+        <div class="row">
+           <div class="col-12" style="padding: 0;">
+            <div id="intro" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                   <video src="images/USPAR VIDEO.mp4" autoplay muted loop></video>
+                  </div>
+                </div>
+              </div>
+           </div>
+        </div>
+    </div>
 
     <div class="uspar-logo">
-        <img src="images/USPAR_Logo.jpg" alt="">
+        <img src="images/USPAR_Logo.jpg" style="width: 210px; height: 200px;" alt="">
     </div>
     <div>
         <h2 class="animate__animated animate__fadeInLeft display-1 text-white cotton">Cotton</h2>
@@ -157,9 +187,9 @@
             </div>
         </div>
     </div>
-    <div id="production" class="container-fluid">
+    <div id="production" class="container-fluid">   
         <div class="row">
-            <div class="col-12 mt-5 ms-3 text-blue">
+            <div class="col-12 mt-5 ps-3 text-blue">
                 <h2 class="display-3">
                     Open-End Production
                 </h2>
@@ -177,7 +207,7 @@
             <div class="col-6 offset-1">
                 <img id="open-end" src="images/open-end.PNG" class="w-100" alt="">
             </div>
-            <div class="col-12 mt-5 ms-3 text-blue">
+            <div class="col-12 mt-5  text-blue">
                 <h2 class="display-3 justify-content-end">
                     Weaving Production
                 </h2>
@@ -200,11 +230,11 @@
     </div>
     <div id="productCards" class="container-fluid">
         <div class="row">
-            <div class="col-12 pt-5">
+            <div class="col-md-12 col-xs-8 pt-5">
                 <h2 class="display-4 text-center text-blue">End-use of Uspar products</h2>
                 <hr class="solid">
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true" class="card shadow">
                     <img src="images/upholstery-fabric.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -212,7 +242,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/tent.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -220,7 +250,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xsmd-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/workwear.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -228,7 +258,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/abrasive.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -236,7 +266,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/coated.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -244,7 +274,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/packtech.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -252,7 +282,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/medical.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -260,7 +290,7 @@
                     </div>
                   </div>
             </div>
-            <div class="col-3 mt-5">
+            <div class="col-md-3 col-xs-12 mt-5">
                 <div data-aos-delay="300" data-aos="fade-up" data-aos-once="true"  class="card shadow">
                     <img src="images/hometextile.jpg" class="card-img-top card-size" alt="...">
                     <div class="card-body">
@@ -274,7 +304,7 @@
 
     <!--P&D starts-->
 
-    <div id="pd" class="container-fluid bg-pd parallax center mt-5">
+    <div id="pd" class="container-fluid d-flex bg-pd parallax center mt-5">
             <div data-aos="fade-right" class="display-1 text-uppercase">
                 Production & Development
             </div>
@@ -302,6 +332,9 @@
                         <li>Uster Tenso Rapid 4</li>
                         <li>Uster MN100 Nep Tester</li>
                     </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#yarn">
+                        Yarn lab details
+                      </button>
                 </div>
                 <div class="col-4 fs-4">
                     <ul>
@@ -311,10 +344,25 @@
                         <li>Zwick Roell Z005</li>
                         <li>Prowhite Airpermeability Tester</li>
                     </ul>
+                    <button type="button" class="btn btn-outline-primary btn-lg" data-bs-toggle="modal" data-bs-target="#fabric">
+                        Fabric lab details
+                      </button>
                 </div>
                 <div class="col-4">
                     <img id="lab" src="images/lab2.PNG" alt="">
                 </div>
+            <div class="col-12 mt-5">
+                <hr class="solid">
+            </div>    
+            <div class="col-6 pt-5 ps-5">
+                <img id="724" src="images/724.PNG" class="w-100" alt="">
+            </div>
+            <div class="col-5 pt-5  offset-1">
+                <p class="display-5">280 Employees</p>
+                <p class="display-5">36 Years in business.</p>
+                <p class="display-5">9 Million meters of fabric production per annum.</p>
+                <p class="display-5">18.000 Tons of yarn production per annum.</p>
+            </div>    
             </div>
         </div>
         
@@ -405,6 +453,7 @@
     </div>
 
     <!--Certificates end-->
+    
 
     <!--Contact us starts-->
 
@@ -414,15 +463,15 @@
         </div>
     </div>
     <div id="main">
-        <button class="openbtn" onclick="openNav()">☰</button>  
+        <button class="openbtn shadow" onclick="openNav()">News</button>  
       </div>
 
     <div class="container">
         <div class="row">
-            <div class="col-6 mt-5">
+            <div class="col-md-6 col-xs-12 mt-5">
                 <div class="mapouter shadow"><div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=Uspar&t=&z=15&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://123movies-to.org"></a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:500px;}</style><a href="https://www.embedgooglemap.net">google maps link generator</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:500px;}</style></div></div>
             </div>
-            <div class="col-6 mt-5">
+            <div class="col-md-6 col-xs-12 mt-5">
                 <h2 class="display-5 text-blue center">Address</h2>
                 <p class="fs-6 center">Organize Sanayi Bolgesi Nevzat Koru Cad. No: 8 Honaz/DENIZLI 20330 TURKEY</p>
                 <h2 class="display-5 text-blue center">E-mail</h2>
@@ -458,14 +507,46 @@
 
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
-        <a href="#intro">Main Page</a>
-        <a href="#history">About Us</a>
-        <a href="#wwd">Produciton</a>
-        <a href="#pd">R&D</a>
-        <a href="#contact">Contact Us</a>
+        <div id="curator-feed-default-feed-layout"><a href="https://curator.io" target="_blank" class="crt-logo crt-tag">Powered by Curator.io</a></div>
      </div>
       
     <!--Sidebar ends-->
+
+    <!--Modals Start-->
+
+    <div class="modal fade" id="yarn" tabindex="-1" aria-labelledby="yarnModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="yarnModalLabel">Yarn Lab Details</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal fade" id="fabric" tabindex="-1" aria-labelledby="fabricModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="fabricModalLabel">Fabric Lab Details</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>  
     
     <script>
         AOS.init();
@@ -490,20 +571,34 @@
 	     orientation: 'right'
         });
 
-        var lab = document.getElementById("lab")
-        new simpleParallax(lab, {
-	     orientation: 'right'
-        });
+
+       
 
         function openNav() {
-           document.getElementById("mySidebar").style.width = "250px";
-           document.getElementById("main").style.marginLeft = "250px";
+            let width=screen.width
+            if(width<600)  {
+                document.getElementById("mySidebar").style.width = "300px";
+                document.getElementById("main").style.marginRight = "20px";
+            }
+            else
+            document.getElementById("mySidebar").style.width = "500px";
+            document.getElementById("main").style.marginRight = "50px";    
+           
         };
 
         function closeNav() {
            document.getElementById("mySidebar").style.width = "0";
            document.getElementById("main").style.marginLeft= "0";
         };
+        
+
+        
+    
+    (function(){
+       var i,e,d=document,s="script";i=d.createElement("script");i.async=1;i.charset="UTF-8";
+       i.src="https://cdn.curator.io/published/d55e828a-02db-4a5d-822f-381aae8c4fff.js";
+       e=d.getElementsByTagName(s)[0];e.parentNode.insertBefore(i, e);
+       })();
 
 
     </script>
