@@ -45,6 +45,7 @@ html, body {
     text-justify: inter-word;
 }
 
+
 /* Navbar CSS */
 nav {
 	position: fixed;
@@ -106,7 +107,7 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 600px) {
 	nav .logo {
 		float: none;
 		width: auto;
@@ -169,6 +170,12 @@ nav .icon-burger .line {
     z-index: 2000;
 }
 
+@media screen and (max-width: 600px) {
+    .uspar-logo{
+		display: none !important;
+	}
+  }
+
 .cotton{
   position: absolute;
   top: 200px;
@@ -186,6 +193,17 @@ nav .icon-burger .line {
     top: 600px;
     right: 50px;
 }
+/* History CSS */
+.history-img{
+	display: flexbox;
+	height: 400px;
+}
+@media screen and (max-width: 600px) {
+    .history-img{
+		display: none !important;
+	}
+  }
+
 /* Vision CSS */
 
 .bg-vision{
@@ -199,6 +217,7 @@ nav .icon-burger .line {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 /* What we do CSS */
 
 .bg-wwd{
@@ -216,6 +235,14 @@ nav .icon-burger .line {
 .card-size{
     height: 200px;
 }
+.mini-pics{
+	display: flexbox;
+}
+@media screen and (max-width: 600px) {
+    .mini-pics{
+		display: none !important;
+	}
+  }
 
 /* P&D CSS */
 
@@ -244,6 +271,17 @@ nav .icon-burger .line {
     background-size: cover;
 }
 
+.map-frame{
+	height: 450px;
+	width: 600px;
+}
+
+@media screen and (max-width: 600px) {
+   .map-frame{
+	   height: 500px;
+	   width: 380px;
+   }
+}
 /* Footer CSS */
 
 .bg-footer{

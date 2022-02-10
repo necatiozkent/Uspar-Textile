@@ -31,17 +31,17 @@
   .openbtn {
     font-size: 40px;
     cursor: pointer;
-    background-color: grey;
+    background-color:rgb(36, 179, 211);
     color: white;
     padding: 10px 15px;
     border: none;
     top: 70px;
-    right: 70px;
+    right: 0px;
     position:fixed;
   }
   
   .openbtn:hover {
-    background-color:  rgb(36, 179, 211);
+    background-color:  rgba(36, 179, 211, 0.605);
   }
 
   #main {
@@ -53,3 +53,5 @@
       height: 100px;
       width: 100px;
   }
+
+ 
