@@ -112,7 +112,7 @@ nav .icon-burger .line {
 	border-radius: 3px;
 	transition: all .3s ease-in-out;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
 	nav .logo {
 		float: none;
 		width: auto;
@@ -173,6 +173,8 @@ nav .icon-burger .line {
     top: 0px;
     left: 0px;
     z-index: 2000;
+	width: 210px; 
+	height: 200px;
 }
 
 @media screen and (max-width: 600px) {
@@ -180,11 +182,19 @@ nav .icon-burger .line {
 		display: none !important;
 	}
   }
+@media screen and (min-width: 1900px) {
+	.uspar-logo{
+       width: 400px;
+	   height: 400px;
+	}
+	
+}  
 
 .cotton{
   position: absolute;
   top: 200px;
   right: 50px;
+  
 }
 
 .yarn{
@@ -198,12 +208,29 @@ nav .icon-burger .line {
     top: 600px;
     right: 50px;
 }
+
+@media screen and (max-width: 1000px) {
+    .cotton{
+		display: none;
+	}
+
+	.yarn{
+		display: none;
+	}
+
+	.fabric{
+		display: none;
+	}
+  }
+
+
+
 /* History CSS */
 .history-img{
 	display: flexbox;
 	height: 400px;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1000px) {
     .history-img{
 		display: none !important;
 	}
@@ -243,7 +270,7 @@ nav .icon-burger .line {
 .mini-pics{
 	display: flexbox;
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
     .mini-pics{
 		display: none !important;
 	}
@@ -263,6 +290,21 @@ nav .icon-burger .line {
     background-size: cover;
 }
 
+.certificates-fs{
+	font-size: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .certificates-fs{
+		font-size: 10px;
+	}
+  }
+
+@media screen and (min-width: 1900px) {
+    .certificates-fs{
+		font-size: 40px;
+	}
+  }
 .bg-contact{
 
     background-image: url("images/contact.jpg");
@@ -284,7 +326,7 @@ nav .icon-burger .line {
 @media screen and (max-width: 600px) {
    .map-frame{
 	   height: 500px;
-	   width: 380px;
+	   width: 350px;
    }
 }
 /* Footer CSS */
@@ -292,4 +334,12 @@ nav .icon-burger .line {
 .bg-footer{
     background-color: rgba(36, 179, 211, 0.85);
 }
+.fs-footer{
+	font-size: small;
+}
+@media screen and (max-width: 600px) {
+	.fs-footer{
+		font-size: x-small;
+	}
+ }
 
