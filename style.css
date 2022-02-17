@@ -182,6 +182,13 @@ nav .icon-burger .line {
 		display: none !important;
 	}
   }
+
+@media screen and (max-width: 800px) {
+    .uspar-logo{
+		height: 150px;
+		width: 150px;
+	}
+  } 
 @media screen and (min-width: 1900px) {
 	.uspar-logo{
        width: 400px;
@@ -329,6 +336,13 @@ nav .icon-burger .line {
 	   width: 350px;
    }
 }
+
+@media screen and (max-width: 400px) {
+	.map-frame{
+		height: 500px;
+		width: 250px;
+	}
+ }
 /* Footer CSS */
 
 .bg-footer{
@@ -337,6 +351,17 @@ nav .icon-burger .line {
 .fs-footer{
 	font-size: small;
 }
+
+.footer-logo{
+	height: 200px;
+}
+
+@media screen and (max-width: 800px) {
+	.footer-logo{
+		height: 100px;
+	}
+ }
+
 @media screen and (max-width: 600px) {
 	.fs-footer{
 		font-size: x-small;
