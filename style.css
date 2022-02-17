@@ -69,7 +69,7 @@ nav .logo {
 	height: 100%;
 	display: flex;
 	align-items: center;
-	font-size: 24px;
+	font-size: 10px;
 	color: #fff;
 }
 nav .links {
@@ -117,6 +117,7 @@ nav .icon-burger .line {
 		float: none;
 		width: auto;
 		justify-content: center;
+		font-size: 24px;
 	}
 	nav .links {
 		float: none;
@@ -173,8 +174,8 @@ nav .icon-burger .line {
     top: 0px;
     left: 0px;
     z-index: 2000;
-	width: 210px; 
-	height: 200px;
+	width: 150px; 
+	height: 150px;
 }
 
 @media screen and (max-width: 600px) {
@@ -185,8 +186,8 @@ nav .icon-burger .line {
 
 @media screen and (max-width: 800px) {
     .uspar-logo{
-		height: 150px;
-		width: 150px;
+		height: 100px;
+		width: 100px;
 	}
   } 
 @media screen and (min-width: 1900px) {
