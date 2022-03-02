@@ -287,14 +287,12 @@ nav .icon-burger .line {
 
 /* History CSS */
 .history-img{
-	display: flexbox;
-	height: 400px;
+		width: 40%;
+		max-width:400px;
+		min-width: 300px;
+		height:auto;	  
 }
-@media screen and (max-width: 1000px) {
-    .history-img{
-		display: none !important;
-	}
-  }
+
 
 /* Vision CSS */
 
@@ -322,10 +320,6 @@ nav .icon-burger .line {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.card-size{
-    height: 200px;
 }
 .mini-pics{
 	width: 300px;
