@@ -321,15 +321,43 @@ nav .icon-burger .line {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.mini-pics-font{
+	font-size: medium;
+	color: white;
+}
+
+.mini-pics-font-header{
+	font-size: x-large;
+	color: white;
+}
+
 .mini-pics{
 	width: 300px;
 	height: 300px;
 }
+
+.mini-pics-icon{
+	height: 100px;
+	width: 100px;
+}
+
 @media screen and (max-width: 700px) {
     .mini-pics{
 		width: 200px;
 		height: 200px;
 	}
+	.mini-pics-font{
+		font-size: x-small;
+	}
+	.mini-pics-font-header{
+		font-size: medium;
+	}
+	.mini-pics-icon{
+		height: 50px;
+	    width: 50px;
+	}
+
   }
 
 /* P&D CSS */
